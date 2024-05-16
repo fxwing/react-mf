@@ -12,7 +12,8 @@ export default class App extends React.Component {
     this.handleSwitchVisible = this.handleSwitchVisible.bind(this);
   }
   handleClick(ev) {
-    console.log(ev);
+    console.log(ev);  
+    console.log(111)
     this.setState({
       dialogVisible: true,
     });
